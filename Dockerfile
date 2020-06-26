@@ -65,7 +65,7 @@ RUN python3 -m ensurepip \
 #
 # Clone repo and prepare working directory
 #
-RUN git clone -b master https://github.com/aidilaryanto/ProjectDils /home/projectdils
+RUN git clone -b experimental https://github.com/aidilaryanto/ProjectDils /home/projectdils
 RUN mkdir /home/projectdils/bin/
 WORKDIR /home/projectdils/
 
